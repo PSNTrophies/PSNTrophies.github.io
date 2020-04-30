@@ -9,14 +9,14 @@ minimal_mistakes_skin    : "nord"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Vita Hacks Guide"
+title                    : "PSN Trophy Hacking Guide"
 title_separator          : "-"
-name                     : "Plailect & emiyl"
-description              : "Full HENkaku Ensō CFW Guide"
-url                      : "https://vita.hacks.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-enforce_ssl              : "vita.hacks.guide"
+name                     : "Frosty"
+description              : "Full PlayStation 3 and PlayStation Vita Trophy Hacking Guide"
+url                      : "https://psntrophies.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+enforce_ssl              : "psntrophies.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Plailect/Guide_Vita" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "PSNTrophies/PSNTrophies.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -51,10 +51,10 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : jVXoPK_-qzKJp4SScnZYpOIX3yDXfGnAoTBJYixUOwg
-bing_site_verification   : F3532011519E308583A0A2CAF2DD69E8
-alexa_site_verification  :
-yandex_site_verification :
+#google_site_verification : jVXoPK_-qzKJp4SScnZYpOIX3yDXfGnAoTBJYixUOwg
+#bing_site_verification   : F3532011519E308583A0A2CAF2DD69E8
+#alexa_site_verification  :
+#yandex_site_verification :
 
 # Social Sharing
 twitter:
@@ -80,11 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Plailect"
+  name             : "Frosty"
   avatar           : "bio-photo.png"
-  bio              : "Wii U Hacker"
-  location         : "Nullsec"
-  email            : "Plailect@gmail.com"
+  bio              : "Level 926 and still going..."
+  location         : "Sony"
+  email            :
   uri              :
   bitbucket        :
   codepen          :
@@ -92,18 +92,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Plailect"
+  github           : "PSNTrophies"
   google_plus      :
   keybase          :
   instagram        :
-  lastfm           : "Plailect"
+  lastfm           :
   linkedin         :
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "Plailect"
+  twitter          :
   vine             :
   weibo            :
   xing             :
