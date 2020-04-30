@@ -29,16 +29,14 @@ top:
     title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   -
-    title: For support in English, ask for help at <a href="https://discord.gg/m7MwpKA">HENkaku on Discord</a>.
+    title: For help, contact us @ <a href="https://discord.gg/akN9sCT">PSN Trophy Database on Discord</a>.
   -
-    title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
+    #title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
 footer:
   -
     title: Source
   -
     title: Site Navigation
-  -
-    title: Why Ads?
   -
     title: Privacy Policy
 sidebar_title:
