@@ -18,55 +18,59 @@ ___
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 {: .notice--warning}
 
-This guide is for retail (consumer purchased; not from the PlayStation Partner Program) consoles _only_!
+This guide is for retail PlayStation 3 and Vita console only! This is not meant for use on dev/testkits. Ensure your PS3 and Vita are jailbroken before attempting any of the trophy modding methods mentioned.
 {: .notice--danger}
-
-<!--{% capture notice-1 %}
-This guide is available in other languages!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
-Alternatively, click [here](https://crowdin.com/project/vita-guide) to help to keep these translations up to date.
-{% endcapture %}-->
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## What is Trophy Hacking?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Sony. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+Trophy hacking is the modification of trophy folders from the PlayStation Console, using PC-based timestamping tools. In ways, the method to modify timestamps for Vita is similar to PS3, but with one main difference: Vita trophy folders are able to be used across multiple accounts *without* resigning! There is one caveat though: A Vita trophy folder must be load while offline (no PSN account linked to your console). So you may have to format your Vita, or use an Account Switcher. 
 
-In many cases, running homebrew on your device is 100% free using just the system browser.
+PS3, on the other hand, must be unlocked on an account, but **CANNOT** be synced before transferring the folder to PC. If it is synced, you will not be able to modify the stamps. You will have to delete the set from your console, and load a fresh folder
 
-## What is Custom Firmware?
+Do note, that there is no risk in being banned from PSN due to trophy hacking. It is a myth. You can be console banned on PS3 for being on CFW, so it is advised to due to any trophy modifications using the latest version of [PS3HEN](http://ps3xploit.com/help/hen.html). You will find no such dangers on Vita, as there has been zero reports about bans. 
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do. Essentially all homebrew solutions on the PS Vita (TV) include a CFW of some kind.
+## What are all these terms?
 
-For information on how custom firmware works, please see [this post](https://yifan.lu/2017/07/31/henkaku-enso-bootloader-hack-for-vita/) by [Yifan Lu](https://twitter.com/yifanlu).
++ **Resigning**: This is specific only to PlayStation 3. Usually trophy folders cannot be used on multiple accounts. They are linked to the first account through the use of **Account id** (more on this later), and that id must be changed in the Param.SFO, as well as in the internal trophy files, through the use of **Bruteforce SaveData**.
++ **Timestamping**: The act of taking a trophy folder from a console, and using a tool to modify or unlock the trophies a person wants unlocked. The user will be able to change the times to whatever they want, whether it is future, or past. Do note, that the only way to modify a synced timestamp is to sync stamps earlier than the first trophy earned! 
 
-## What does this guide install?
+## What does this guide require?
 
-This guide has the end goal of taking a completely unmodified PS Vita (TV) from stock firmware to custom firmware.
+For **PlayStation 3**:
++ A jailbroken or HEN-modified console (more on that later)
++ A trophy folder (either a non-synced trophyset pulled from your account, or one downloaded from [PSN Trophy Database](http://www.psntrophies.xyz/)
++ Bruteforce SaveData (for resigning)
++ FileZilla (or another suitable FTP Browser, to connect your PC to your console)
++ multiMAN (or IrisMAN, webMAN, etc. for connecting to FTP)
++ PS3TrophyIsGood (for timestamping purposes)
++ Your Param.SFO (for Account ID)
 
-The best CFW solution currently available, Ensō, allows for convenient homebrew access on your device by running an exploit at boot-time to setup the homebrew environment. It is more convenient than other CFW solutions (such as HENkaku or h-encore) as it does not require you to trigger an exploit on your device after every reboot manually.
+For **PlayStation Vita**:
++ A jailbroken console (any Vita can be modded!)
++ A trophy folder (either using a fresh trophyset from an offline, non-PSN linked console, or one downloaded from [PSN Trophy Database](http://www.psntrophies.xyz/)
++ FileZilla (or another suitable FTP Browser, to connect your PC to your console)
++ trophax.suprx (or Trophax Standalone Edition (SE) for unlocking trophies from console)
++ Vitashell (for connecting to FTP)
++ VitaTrophyIsGood (for timestamping)
 
-Ensō is available on all devices with firmware version 3.65 or below, while higher firmware version devices can use h-encore to achieve a similar (if less convenient) result.
+## What can I do with trophy hacking?
 
-## What can I do with Custom Firmware?
-
-+ Customize your home screen with user-created [themes](http://vstema.com/).
-+ Use "ROM hacks" for games that you own
-+ [Backup, edit, and restore](https://github.com/d3m3vilurr/vita-savemgr) saves for many games.
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Dump your game cards to a format you can install, and play them without needing the card.
-+ Certain games only: stream live gameplay to your PC wirelessly with Rincheat Streamer.
-+ Play your PSP games on your Vita with Adrenaline ePSP CFW
++ Get trophies from games with shut-down servers, or delisted DLCs
++ Finally get that one difficult trophy for the platinum!
++ Fix your messed up times
++ Timestamping incomplete games
 
 ## What do I need to know before starting?
 
-+ **Before beginning the guide, you must know the risks of Vita hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on all PS Vita, PS Vita Slim, and PS TV devices in all regions on firmwares from 1.03 to 3.73
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, PSN Account, saves, etc will be preserved).
-+ **Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
-+ The PS Vita 2000 and PS TV models are essentially identical to the original PS Vita 1000 in terms of software. All steps which say "PS Vita" also apply to other models unless otherwise specified.
-+ If you have a PS Vita 1000, you must also have an official Sony memory card (of any size) to follow this guide. This restriction does not apply to the PS Vita 2000 or PS TV as those devices have a built-in memory card.
++ If you don't have a console, stop right here. Come back when you do!
++ Trophies can be fun to modify, but be sure to ask around before attempting to manually modify the internal files.
++ Do not try to put stamps too far in the past (or it'll be invalid stamps)
++ Use PSNPatch on PS3 to disable syscalls, so you face less risk of ban.
++ Do not offer trophy services over PSN Messages. You will likely be account banned.
++ Do not spam our Discord chat with trophy requests. You will be kicked or banned. 
++ Use this [NPWR Spreadsheet](https://docs.google.com/spreadsheets/d/1B4cSII-RoQAbWe19mIBIcNHap8uVoGcAeWwrnkSmmo0/edit?usp=sharing) to browser for what games are available via [PSN Trophy Database](http://psntrophies.xyz).
 
 ___
 
