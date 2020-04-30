@@ -21,7 +21,8 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 This guide is for retail PlayStation 3 and Vita console only! This is not meant for use on dev/testkits. Ensure your PS3 and Vita are jailbroken before attempting any of the trophy modding methods mentioned.
 {: .notice--danger}
 
-<div class="notice--success">{{ notice-1 | markdownify }}</div>
+This guide is available in other languages! Click the _Translate_ icon at the top right of the page to change the language.
+{: .notice--success}
 
 ## What is Trophy Hacking?
 
