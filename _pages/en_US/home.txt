@@ -1,16 +1,16 @@
 ---
 layout: splash
-title: "PS Vita (TV) Hacks Guide" #
+title: "PSN Trophy Hacking Guide" #
 header:
-  overlay_color: "#5e616c" #
+  overlay_color: "#657ac7" #
   overlay_image: images/home-page-feature.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0.3
   caption:
 
-excerpt: "A complete guide to PS Vita (TV) custom firmware, <br /> from stock to Ensō.<br />"
+excerpt: "A complete guide to PS3 and Vita Trophy Hacking <br /> from console to PC.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+For trophy folders to get you started on your journey, check out [PSN Trophy Database](http://psntrophies.xyz).
 {: .notice--primary}
 
 ___
@@ -21,11 +21,11 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 This guide is for retail (consumer purchased; not from the PlayStation Partner Program) consoles _only_!
 {: .notice--danger}
 
-{% capture notice-1 %}
+<!--{% capture notice-1 %}
 This guide is available in other languages!
 Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
 Alternatively, click [here](https://crowdin.com/project/vita-guide) to help to keep these translations up to date.
-{% endcapture %}
+{% endcapture %}-->
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
