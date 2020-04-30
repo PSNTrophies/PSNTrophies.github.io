@@ -32,39 +32,46 @@ PS3, por otro lado, debe estar desbloqueado en una cuenta, pero **NO PUEDE** hab
 
 Tenga en cuenta que no hay riesgo de ser expulsado de PSN debido a la piratería de trofeos. Es un mito Solo se le prohibirá la consola en PS3 por estar en CFW, por lo que se recomienda debido a cualquier modificación del trofeo utilizando la última versión de [PS3HEN] (http://ps3xploit.com/help/hen.html). No encontrará tales peligros en Vita, ya que ha habido cero informes sobre prohibiciones.
 
-## ¿Qué es Custom Firmware?
+## ¿Cuáles son todos estos términos?
 
-Un **Custom Firmware** ("CFW") te permite utilizar hacks más avanzados que el homebrew en el espacio del usuario no pueden utilizar fácilmente. De hecho, todo el software casero en PS Vita (TV) incluye alguna clase de CFW.
++ **Renuncia (Resigning)**: esto es específico solo para PlayStation 3. Por lo general, las carpetas de trofeos no se pueden usar en varias cuentas. Están vinculados a la primera cuenta mediante el uso de ** ID de cuenta ** (más sobre esto más adelante), y esa identificación debe cambiarse en Param.SFO, así como en los archivos de trofeos internos, mediante el uso de * * Bruteforce SaveData **.
++ **Marca de tiempo**: El acto de tomar una carpeta de trofeos de una consola y usar una herramienta para modificar o desbloquear los trofeos que una persona quiere desbloquear. El usuario podrá cambiar los tiempos a lo que quiera, ya sea futuro o pasado. ¡Tenga en cuenta que la única forma de modificar una marca de tiempo sincronizada es sincronizar los sellos antes del primer trofeo obtenido!
 
-Para más información sobre cómo funciona un custom firmware, puedes echar un vistazo a [este post](https://yifan.lu/2017/07/31/henkaku-enso-bootloader-hack-for-vita/) escrito por [Yifan Lu](https://twitter.com/yifanlu).
+## ¿Qué requiere esta guía?
 
-## ¿Qué se instalará con esta guía?
+Para **PlayStation 3**:
++ Una consola con jailbreak o modificada por HEN (más sobre eso más adelante)
++ Una carpeta de trofeos (ya sea un trofeo no sincronizado extraído de su cuenta o uno descargado de [Base de datos de trofeos de PSN] (http://www.psntrophies.xyz/)
++ Bruteforce SaveData (para volver a firmar)
++ FileZilla (u otro navegador FTP adecuado, para conectar su PC a su consola)
++ multiMAN (o IrisMAN, webMAN, etc. para conectarse a FTP)
++ PS3TrophyIsGood (para fines de sellado de tiempo)
++ Su Param.SFO (para ID de cuenta)
 
-Esta guía tiene la meta de llevar una PS Vita (TV) sin modificar desde el firmware de stock a un custom firmware.
+Para **PlayStation Vita**:
++ Una consola con jailbreak (¡cualquier Vita puede ser modificada!)
++ Una carpeta de trofeos (ya sea utilizando un nuevo trofeo desde una consola sin conexión, no vinculada a PSN, o uno descargado de [Base de datos de trofeos de PSN] (http://www.psntrophies.xyz/)
++ FileZilla (u otro navegador FTP adecuado, para conectar su PC a su consola)
++ trophax.suprx (o Trophax Standalone Edition (SE) para desbloquear trofeos de la consola)
++ Vitashell (para conectarse a FTP)
++ VitaTrophyIsGood (para sellado de tiempo)
 
-La mejor opción de CFW que existe actualmente, Ensō, permite el acceso a software casero en tu consola mediante la ejecución de un exploit durante la etapa de arranque de la consola para generar un espacio de trabajo para el software. Es más conveniente que cualquier otra opción de CFW (como HENkaku o h-encore) ya que no requieren que ejecutes un exploit en tu consola luego de cada reinicio.
+## ¿Qué puedo hacer con la modificación de trofeos?
 
-Ensō está disponible para todas las consolas con versión de firmware 3.65 o inferior, mientras que en versiones superiores se utiliza h-encore para conseguir un resultado similar (aunque menos conveniente).
++ Obtener trofeos de juegos con servidores cerrados o DLC de la lista
++ ¡Finalmente consigue ese trofeo difícil para el platino!
++ Arregla tus tiempos desordenados
++ Juegos completos
 
-## ¿Qué puedo hacer con Custom Firmware?
+## ¿Qué necesito saber antes de comenzar?
 
-+ Personalizar tu pantalla de inicio con [temas] creados por usuarios(http://vstema.com/).
-+ Utilizar "Hack ROMs" de juegos que ya posees
-+ [Respaldar, editar y restaurar](https://github.com/d3m3vilurr/vita-savemgr) datos de guardado de muchos juegos.
-+ Emular juegos de sistemas antiguos con varios emuladores, mediante RetroArch u otros emuladores independientes.
-+ Respaldar tus juegos en formato físico a un formato que puedas instalar y jugar sin necesidad del mismo.
-+ Con algunos juegos únicamente: transmitir gameplay en vivo a tu PC inalámbricamente mediante Rincheat Streamer.
-+ Jugar tus juegos de PSP en tu PS Vita mediante Adrenaline ePSP CFW
-
-## ¿Qué necesito saber antes de empezar?
-
-+ **Antes de comenzar la guía, debes conocer los riesgos de hackear la PS Vita: CADA VEZ que modificas tu sistema, siempre existe la posibilidad de que tu consola quede inutilizable de forma PERMANENTE. Es algo raro, pero la posibilidad está ahí, así que asegúrate de seguir TODAS las instrucciones AL PIE DE LA LETRA.**
-+ This guide will work on all PS Vita, PS Vita Slim, and PS TV devices in all regions on firmwares from 1.03 to 3.72
-+ Si todo va según el plan, no perderás datos y terminarás con todo lo que tenías anteriormente (tus juegos, cuenta de PSN, datos de guardado, etcétera, se conservarán).
-+ **¡Mantén tu consola conectada y cargada durante todo el proceso para evitar pérdidas de datos o daños, producto de un apagado inesperado!**
-+ Los modelos PS Vita 2000 y PS TV son prácticamente idénticos al modelo original PS Vita 1000 en términos de software. Todos los pasos que mencionen "PS Vita" también aplicarán a los otros modelos, exceptuando cuando se especifiquen en particular.
-+ Si tienes una PS Vita 1000, también deberás poseer una tarjeta de memoria oficial de Sony (de cualquier tamaño) para seguir esta guía. Esta restricción no aplica a los modelos PS Vita 2000 o PS TV debido a que poseen una tarjeta de memoria interna.
-
++ Si no tiene una consola, deténgase aquí. Vuelve cuando lo hagas!
++ Los trofeos pueden ser divertidos de modificar, pero asegúrese de preguntar antes de intentar modificar manualmente los archivos internos.
++ No intente colocar sellos demasiado lejos en el pasado (o serán sellos no válidos)
++ Use PSNPatch en PS3 para deshabilitar las llamadas al sistema, por lo que corre menos riesgo de prohibición.
++ No ofrezca servicios de trofeos a través de mensajes de PSN. Es probable que su cuenta esté prohibida.
++ No envíe spam a nuestro chat de Discord con solicitudes de trofeos. Serás pateado.
++ Use esta [hoja de cálculo NPWR](https://docs.google.com/spreadsheets/d/1B4cSII-RoQAbWe19mIBIcNHap8uVoGcAeWwrnkSmmo0/edit?usp=sharing) para buscar qué juegos están disponibles a través de [PSN Trophy Database](http://psntropies.xyz).
 ___
 
 ### Continúa en [Comencemos](get-started)
