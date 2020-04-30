@@ -1,16 +1,16 @@
 ---
 layout: splash
-title: "Guía de hacks para PS Vita (TV)" #
+title: "Guía de modificación de trofeos de PSN" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0.3
   caption:
 
-excerpt: "Una guía completa de custom firmware para PS Vita (TV), <br /> desde stock a Ensō.<br />"
+excerpt: "Una guía completa para la modificación de trofeos de PS3 y Vita<br /> desde la consola a la PC.<br />"
 ---
 
-Si buscas guías completas de homebrew y custom firmware para otras consolas, echa un vistazo al sitio web [Hacks.Guide](https://hacks.guide).
+Para obtener carpetas de trofeos para comenzar su viaje, consulte [PSN Trophy Database](http://psntrophies.xyz).
 {: .notice--primary}
 
 ___
@@ -18,22 +18,19 @@ ___
 Lee detenidamente todas las páginas de introducción (incluida ésta) antes de proceder.
 {: .notice--warning}
 
-¡Esta guía es _sólo_ para consolas retail (compradas en tiendas), no para consolas del Playstation Partner Program!
+¡Esta guía es solo para PlayStation 3 y Vita Console! Esto no está destinado para su uso en dev / testkits. Asegúrate de que tu PS3 y Vita estén modificados antes de intentar cualquiera de los métodos de modificación de trofeos mencionados.
 {: .notice--danger}
 
-{% capture notice-1 %}
-¡Esta guía está disponible en otros idiomas!
-Haz clic en el icono <i class="fa fa-language" aria-hidden="true"></i> en la parte superior derecha de la página para cambiar el idioma.
-Alternativamente, haz clic [aquí](https://crowdin.com/project/vita-guide) para ayudarnos a mantener estas traducciones actualizadas.
-{% endcapture %}
+¡Esta guía está disponible en otros idiomas! Haga clic en el icono _Traducir_ en la esquina superior derecha de la página para cambiar el idioma.
+{: .notice--success}
 
-<div class="notice--success">{{ notice-1 | markdownify }}</div>
+## ¿Qué es la modificación de trofeos?
 
-## ¿Qué es Homebrew?
+La piratería de trofeos es la modificación de carpetas de trofeos desde la consola PlayStation, utilizando herramientas de sellado de tiempo basadas en PC. En cierto modo, el método para modificar las marcas de tiempo para Vita es similar a PS3, pero con una diferencia principal: ¡las carpetas de trofeos de Vita se pueden usar en varias cuentas sin cambiar la ID de la cuenta! Sin embargo, hay una advertencia: se debe cargar una carpeta de trofeos de Vita sin conexión (no hay una cuenta de PSN vinculada a su consola). Por lo tanto, es posible que tenga que formatear su Vita o usar un conmutador de cuenta.
 
-[**Homebrew**](https://es.wikipedia.org/wiki/Homebrew) suele referirse a software no autorizado por Sony. Esto te permite ejecutar varios juegos caseros, herramientas para editar y respaldar partidas y emuladores de varios sistemas antiguos.
+PS3, por otro lado, debe estar desbloqueado en una cuenta, pero **NO PUEDE** haber sincronizado las marcas de tiempo antes de transferir la carpeta a la PC. Si está sincronizado, no podrá modificar los sellos. Tendrá que eliminar el conjunto de su consola y cargar una carpeta nueva
 
-En la mayoría de casos, correr homebrew en tu consola es 100% gratis tan sólo usando el navegador del sistema.
+Tenga en cuenta que no hay riesgo de ser expulsado de PSN debido a la piratería de trofeos. Es un mito Solo se le prohibirá la consola en PS3 por estar en CFW, por lo que se recomienda debido a cualquier modificación del trofeo utilizando la última versión de [PS3HEN] (http://ps3xploit.com/help/hen.html). No encontrará tales peligros en Vita, ya que ha habido cero informes sobre prohibiciones.
 
 ## ¿Qué es Custom Firmware?
 
