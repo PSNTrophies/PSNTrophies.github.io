@@ -30,7 +30,7 @@ While we will be mainly focusing on **TropHAX 2.0**, we will go over **TropHAX S
   + If you have multiple trophy folders downloaded from **PSN Trophy Database**, you can extract them all at once. THey will all end up with their contents in one `trophy` directory, for which you can Drag-and-Drop into your Vita. This saves a lot of time and hassle!
 1. Make sure there are no _Queued files_ (at the bottom of **FileZilla** (or whatever FTP Client you're using.)
   + Check for any _Failed transfers_
-    + If you see any, simple click the tab, and go into the empty field, and right-click. Select `Reset and requeue all`. Go back to _Queued files_ and then right click, and select `Process Queue`.
+    * If you see any, simple click the tab, and go into the empty field, and right-click. Select `Reset and requeue all`. Go back to _Queued files_ and then right click, and select `Process Queue`.
 1. Once all files are done transferring, press (Circle) on your Vita, to exit FTP mode.
 1. Press your Home Button (represented by the PS Symbol), to exit **VitaShell** (or your Vita's file browser)
 1. Scroll up on your Vita, and select the Trophy App. Load the trophies offline (not on account). You should get an error. Keep going, and the Trophy App will refresh its database. Patiently wait for all he trophysets to load in to the App, then go to the PSN Account tab.
