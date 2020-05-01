@@ -6,9 +6,9 @@ title: "Setting Up Your Vita"
 
 ### Required Reading
 
-Trophy hacking on the Vita is very simple, but there are various tools at your reach, that can expand the process.
+Trophy hacking on the Vita is very simple, but there are various tools at your disposal, that can expand the process. Note, that everything covered in the guide **will** work on **PlayStation TV**, as we have tested these methods on both Vita and TV!
 
-While we will be mainly focusing on **TropHAX 2.0**, we will go over **TropHAX Standalone Edition (SE)** and **Trophy Dumper** for use with **vitatrophyisgood** as mentionen on the previous page of this guide.
+While we will be mainly focusing on **TropHAX 2.0**, we will go over **TropHAX Standalone Edition (SE)** and **Trophy Dumper** for use with **vitatrophyisgood** as mentioned on the previous page of this guide. **TropHAX SE** will likely be on its own page. 
 
 ### What You Need
 
@@ -24,7 +24,7 @@ While we will be mainly focusing on **TropHAX 2.0**, we will go over **TropHAX S
 1. Press (Select) to enable FTP access on your device
 1. Open your FTP client on your computer
 1. Enter the IP Address and Port displayed on your device
-1. Using your FTP client, navigate to `ur0:` » `user/` » `00/` » `trophy/` (if the `trophy` directory does not exist, it means you have not loaded any trophysets yet. Simple create the directory. Trophy folders found on [PSN Trophy Database](http://psntrophies.xyz/) will have the `trophy` directory already supplied!
+1. Using your FTP client, navigate to `ur0:user/00/trophy/` (if the `trophy` directory does not exist, it means you have not loaded any trophysets yet. Simple create the directory. Trophy folders found on [PSN Trophy Database](http://psntrophies.xyz/) will have the `trophy` directory already supplied!
 1. Drag your trophy folder(s)' `conf` and `data` into the `trophy` directory on your Vita.
   + If the `trophy` directory is part of the .rar, you can simply drop the whole `trophy` into the `00` directory.
   + If you have multiple trophy folders downloaded from **PSN Trophy Database**, you can extract them all at once. THey will all end up with their contents in one `trophy` directory, for which you can Drag-and-Drop into your Vita. This saves a lot of time and hassle!
@@ -33,31 +33,20 @@ While we will be mainly focusing on **TropHAX 2.0**, we will go over **TropHAX S
     * If you see any, simple click the tab, and go into the empty field, and right-click. Select `Reset and requeue all`. Go back to _Queued files_ and then right click, and select `Process Queue`.
 1. Once all files are done transferring, press (Circle) on your Vita, to exit FTP mode.
 1. Press your Home Button (represented by the PS Symbol), to exit **VitaShell** (or your Vita's file browser)
-1. Scroll up on your Vita, and select the **Trophy App**. Load the trophies offline (not on account). You should get an error. Keep going, and the **Trophy App** will refresh its database. Patiently wait for all he trophysets to load in to the App, then go to the PSN Account tab.
+1. Scroll up on your Vita, and select the **Trophy App**. Load the trophies using the **PS Vita/PSTV System** tab, not the **PlayStation Network** tab. You should get an error. Keep going, and the **Trophies App** will refresh its database. Patiently wait for all he trophysets to load in to the App, then go to the PSN Account tab.
 1. Enter your PSN info, and begin syncing.
   + If you're already signed in, then just sync.
-  + If you can't sign in, go to the **Settings App** on your homescreen, and then **Henkaku Settings**. Change Spoofed FW to 3.73 (or whatever FW is latest at the time of you accessing this guide). Then go back to the **Trophy App** and try again.
+  + If you can't sign in, go to the **Settings App** on your homescreen, and then **Henkaku Settings**. Change Spoofed FW to 3.73 (or whatever FW is latest at the time of you accessing this guide). Then go back to the **Trophies App** and try again.
 1. Once done, you can safely delete the trophy folders from your `ur0` trophy directory, and proceeed to transfer more folders to your Vita. Be sure to delete the resultant `sce_trop` and `db` directories.
 1. Congrats on syncing modded trophies! Wanna unlock your own now? 
 
 #### Section II - Unlock Your Own Trophies
 
-1. On your device, navigate to `ux0:` -> `data/`
-1. Press (Square) on each of the `.vpk` files to mark them
-1. Press (Triangle) to open the menu, then select "More" -> "Install all" to install the marked files
-1. Press (Cross) to confirm the install
-1. Press (Cross) to continue the install each time you are prompted about extended permissions
-1. Press (Triangle) to open the menu, then select "Delete" to delete the marked files
-1. Press (Cross) to confirm the deletion
-1. Close the molecularShell application
+1. TBA
 
 #### Section III - Using **TrophyDumper**
 
-1. Open the Ensō application
-1. Press (Circle) to accept the terms
-1. Press (Cross) to install Ensō
-  + When the process has completed, press any button to reboot your device
-
+1. TBA
 ___
 
 ### Continue to [Finalizing Setup](finalizing-setup)
