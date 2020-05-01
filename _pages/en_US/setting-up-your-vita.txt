@@ -1,24 +1,24 @@
 ---
-title: "Installing Ensō (3.60)"
+title: "Setting Up Your Vita"
 ---
 
 {% include toc title="Table of Contents" %}
 
 ### Required Reading
 
-Ensō is a complete CFW solution for the PS Vita (TV) which allows for convenient homebrew access on your device by running an exploit at boot-time to setup the HENkaku homebrew environment.
+Trophy hacking on the Vita is very simple, but there are various tools at your reach, that can expand the process.
 
-It is more convenient than HENkaku as it does not require you to trigger an exploit on your device after every reboot manually.
+While we will be mainly focusing on **TropHAX 2.0**, we will go over **TropHAX Standalone Edition (SE)** and **Trophy Dumper** for use with **vitatrophyisgood** as mentionen on the previous page of this guide.
 
 ### What You Need
 
-* An FTP Client such as [WinSCP](https://winscp.net/) or [CyberDuck](https://cyberduck.io/)
-* The latest release of [Ensō (3.60)](https://github.com/henkaku/enso/releases/latest/)
-* The latest release of [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases/latest)
+* [TropHAX 2.0.suprx](https://bitbucket.org/SilicaAndPina/trophax/downloads/) (for unlocking trophies while in-game)
+  + Optional: [TropHAX SE](https://bitbucket.org/SilicaAndPina/trophaxse/src/master/) (in the case, that you would rather unlock several games without having to load each one. This will require the trophyset already being loaded in the Trophy App.) 
+* [TrophyDumper](https://bitbucket.org/SilicaAndPina/trophydumper/src/master/) (for use with **psvtrophyisgood**, as the timestamper requires decrypted data files, which cannot be done by the PC.)
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Drag-and-Drop
 
 1. Launch the molecularShell application
 1. Press (Select) to enable FTP access on your device
@@ -29,7 +29,7 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 1. Transfer `VitaShell.vpk` to the `data` folder
 1. Press (Circle) on your device to close the FTP connection
 
-#### Section II - Installing VPKs
+#### Section II - Unlock Your Own Trophies
 
 1. On your device, navigate to `ux0:` -> `data/`
 1. Press (Square) on each of the `.vpk` files to mark them
@@ -40,7 +40,7 @@ It is more convenient than HENkaku as it does not require you to trigger an expl
 1. Press (Cross) to confirm the deletion
 1. Close the molecularShell application
 
-#### Section III - Installing Ensō
+#### Section III - Using **TrophyDumper**
 
 1. Open the Ensō application
 1. Press (Circle) to accept the terms
