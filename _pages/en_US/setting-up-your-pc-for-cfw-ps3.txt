@@ -1,0 +1,44 @@
+---
+title: "Setting up your PC for CFW PS3"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+This guide will go over steps to hack trophies on a **CFW PlayStation 3**. 
+
+If you are using a **PlayStation Vita**, or your **PlayStation 3** is running **3.56 or higher OFW**, you should return to [Get Started](get-started).
+
+### What you need
+
+* A gamesave from your console (to pull your Param.SFO from)
+* A PC
+* [Bruteforce SaveData](https://mega.nz/file/l4oBzCSR#lp319ML2FWyHLE03SNhGwiPU2UXsDc_gUCm7EMaMVao)
+* [FileZilla](https://filezilla-project.org/) (or other FTP Client)
+* [PS3TrophyIsGood](https://mega.nz/file/YlhAVIjZ#frAUsaZypgcTFnbxKGKve4uCFzxRrJIC9KbtwI3v46E)
+
+### Instructions
+
+#### Section I: Download the tools
+
+1. You're done.
+
+#### Section II: Set-up Bruteforce SaveData
+
+1. Turn on your **PlayStation 3**
+1. Load a game using the PSN you're wanting to trophy hack with
+  + It can be any game, as long as it produces a save. 
+  + It is safer to do this offline, so to avoid any unnecessary ban risks.
+1. Export your gamesave to USB.
+  + Make sure your USB is formatted to fat32
+1. Import your gamesave to your PC.
+  + Move the **Param.SFO** from the save to your PC
+  + Open **Bruteforce SaveData**
+1. Click the profile link at the top of the tool
+  + Use the resultant File Explorer to browse for your **Param.SFO**
+  + Name the profile
+___
+
+### Continue to [Installing HENkaku](installing-henkaku)
+{: .notice--primary}
