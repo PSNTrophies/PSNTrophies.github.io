@@ -6,14 +6,14 @@ title: "Get Started"
 
 ### Required Reading
 
-Different device versions will require different steps to achieve the end goal of Custom Firmware. This page will help you find where to start for your device.
+Different consoles versions will require different steps to achieve the end goal of trophy hacking. This page will help you find where to start for your console.
 
 Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Select the appropriate page for your version from the chart below. Note that the "from" and "to" fields are inclusive. This means that, for example, the "from 1.03 to 3.57" row includes 1.03, 3.57, and all versions in-between.
+Select the appropriate page for your console from the chart below. Note that **Custom Firmware (CFW) PlayStation 3** applies to PS3's tha that have been jailbroken on 3.55 Original Firmware (OFW), and has since been update to later CFWs. HEN applies to PS3's that have or cannot not be downgraded, but are able to be partially modified due to **PS3HEN**. The steps to modify the PS3 are different, but the trophy hacking method _are_ the same. HEN may be safer, especially in the case of doing the trophy steps offline, and deleting history via **WebMAN**, but we will focus on that later in the guide!
 
-Your device version can be found under the System Information menu in the System category of the Settings application.
+Before you start, be sure to check the firmware listed in the system settings on your **PlayStation 3** or **PlayStation Vita**. Any firmware for Vita can be used, but only 3.60/3.65 will have the most support, so be sure to use the [Vita Jailbreak Guide](https://vita.hacks.guide/) in order for your device to be ready, as we will not focus on setting up your consoles. 
 
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
@@ -28,30 +28,21 @@ Your device version can be found under the System Information menu in the System
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">From</th>
-      <th style="text-align: center; font-weight: bold;">To</th>
+      <th style="text-align: center; font-weight: bold;">For</th>
       <th style="text-align: center; font-weight: bold;"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">1.03</td>
-      <td style="text-align: center; font-weight: bold;">3.57</td>
+      <td style="text-align: center; font-weight: bold;">PlayStation 3 (CFW)</td>
       <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.60)">Updating Firmware (3.60)</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">3.60</td>
-      <td style="text-align: center; font-weight: bold;">3.60</td>
+      <td style="text-align: center; font-weight: bold;">PlayStation 3 (HEN)</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-henkaku">Installing HENkaku</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">3.61</td>
-      <td style="text-align: center; font-weight: bold;">3.63</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(ps-vita-3.65)">Updating Firmware (PS Vita)</a><br>or<br><a href="updating-firmware-(ps-tv-3.65)">Updating Firmware (PS TV)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">3.65</td>
-      <td style="text-align: center; font-weight: bold;">3.73</td>
+      <td style="text-align: center; font-weight: bold;">PlayStation Vita/TV (3.60+ FW)</td>
       <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore">Installing h-encore</a></td>
     </tr>
   </tbody>
