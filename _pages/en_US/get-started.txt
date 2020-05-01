@@ -28,7 +28,7 @@ Before you start, be sure to check the firmware listed in the system settings on
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">For</th>
+      <th style="text-align: center; font-weight: bold;">Console</th>
       <th style="text-align: center; font-weight: bold;"></th>
     </tr>
   </thead>
