@@ -36,5 +36,5 @@ If you want to create your own trophy folders, then make sure to read this guide
 
 ___
 
-### Continue to [Installing Ensō (3.60)](installing-enso-(3.60))
+### Continue to [Setting Up Your Vita](setting-up-your-vita)
 {: .notice--primary}
