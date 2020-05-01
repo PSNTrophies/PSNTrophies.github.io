@@ -12,9 +12,16 @@ While we will be mainly focusing on **TropHAX 2.0**, we will go over **TropHAX S
 
 ### What You Need
 
+* [0syscall6.skprx](https://github.com/SKGleba/0syscall6/releases) (for patching the Vita to run higher firmware games)
+  + You will not need **reF00D** or any Compatibility Packs, since this plugin will allow your Vita to naitvely run any game, regardless of your firmware.
+  + Still, it is recommended to stay on 3.60 or 3.65 firmware, although it should work on higher firmewares. 
+* [config.txt](/assets/files/config.txt) (for your `suprx`'s and `skprx`'s to work correctly)
+* [NoNpDrm.skprx](https://github.com/TheOfficialFloW/NoNpDrm) (for running games from **PKGj**)
+* [PKGj](https://github.com/blastrock/pkgj/releases) (for downloading Vita games from **NoPayStation**)
 * [TropHAX 2.0.suprx](https://bitbucket.org/SilicaAndPina/trophax/downloads/) (for unlocking trophies while in-game)
   + Optional: [TropHAX SE](https://bitbucket.org/SilicaAndPina/trophaxse/src/master/) (in the case, that you would rather unlock several games without having to load each one. This will require the trophyset already being loaded in the Trophy App.) 
 * [TrophyDumper](https://bitbucket.org/SilicaAndPina/trophydumper/src/master/) (for use with **psvtrophyisgood**, as the timestamper requires decrypted data files, which cannot be done by the PC.)
+* [VitaShell](https://github.com/TheOfficialFloW/VitaShell/releases)
 
 ### Instructions
 
@@ -42,7 +49,26 @@ While we will be mainly focusing on **TropHAX 2.0**, we will go over **TropHAX S
 
 #### Section II - Unlock Your Own Trophies
 
-1. TBA
+1. Open **VitaShell**
+1. Press `Select`
+1. Open **FileZilla** (or your FTP Client), and connect to your Vita.
+1. Proceed to `ur0:tai/`, then drop in the `config.txt` from above, as well as the `trophax2.0.suprx`, as `NoNpDrm.skprx` and `0syscall6.skprx`.
+1. Drag your `PKGj.vpk` into any directory, though most people recommend creating a directory in `ux0` or `ur0` called `vpk/`.
+  + Only do this if you're wanting to unlock trophies for games you do not own.
+  + If using your own game, skip to **step 9.**
+1. Install the vpk to your Vita.
+1. Reboot your Vita.
+  + Not necessary if you're going to run games you own as cartridges.
+1. Run `PKGj` app, and it should refresh and load up all the Vita games from **NoPayStation's** database.
+  + Choose a title, press **X**, and download. If you get a `scel0` error, make sure the directory `bgdl` exists in `ux0`, then retry.
+1. Once the game is installed (or you have your cart inserted into your Vita), run the game. Once the game is at its main menu, proceed to press `Start` and `Select` (`Options` and `Share` if using a **PlayStation 4** Controller on your **PlayStation TV**). If done correctly, **TropHAX** will prompt you to press `L` and `R` back buttons (`L1` and `R1` for PS3 or PS4 Controller) to unlock all trophies.
+  + Press  `L` & `Start` (`L1` & `Options` if using PS4 Controller) to choose specific trophies to unlock. It will tell you what to do from there.
+1. If all goes well, all the trophies (or the specific trophies) will be unlocked in the **Trophies App**.
+  + If you get error unlocking trophies (such as `ret: 80551604`), you may have to delete the trophyset and try again, or proceed to using **TroHAX SE**. **TropHAX SE** Guide can be found at: INSERT URL HERE...
+1. Congrats on unlocking your own trophies! If you did this offline without a PSN account linked, you can share your folders with others!
+  + If you do so, do be sure to delete `sce_trop` and `db` directories before exporting the trophy folders to your computer. They are unneeded and will lead to the trophysets not appearing in the **Trophies App** on other devices!
+  + If you want to change the stamps (Note: This must be done **BEFORE** you sync, as you cannot change synced timestamps!), then proceed to the **TrophyDumper** Section of this Guide, so you can decrypt your trophy folder(s). Then proceed to the final page of our guide, to learn how to use **psvtrophyisgood** to timestamp!
+  + You can change synced stamps **only** if you change the stamps to before you earned your first trophy! (For example: If you first trophy earn for that specific game was on `May 1st, 2020`, you will need to change one of your trophies to `April 30th, 2020` or earlier. After that, other stamps can be changed. 
 
 #### Section III - Using **TrophyDumper**
 
