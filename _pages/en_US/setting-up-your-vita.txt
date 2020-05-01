@@ -15,7 +15,7 @@ While we will be mainly focusing on **TropHAX 2.0**, we will go over **TropHAX S
 * [0syscall6.skprx](https://github.com/SKGleba/0syscall6/releases) (for patching the Vita to run higher firmware games)
   + You will not need **reF00D** or any Compatibility Packs, since this plugin will allow your Vita to naitvely run any game, regardless of your firmware.
   + Still, it is recommended to stay on 3.60 or 3.65 firmware, although it should work on higher firmewares. 
-* [config.txt](/assets/files/config.txt) (for your `suprx`'s and `skprx`'s to work correctly)
+* <a href="/assets/files/config.txt" download="config.txt">config.txt</a> (for your `suprx`'s and `skprx`'s to work correctly)
 * [NoNpDrm.skprx](https://github.com/TheOfficialFloW/NoNpDrm) (for running games from **PKGj**)
 * [PKGj](https://github.com/blastrock/pkgj/releases) (for downloading Vita games from **NoPayStation**)
 * [TropHAX 2.0.suprx](https://bitbucket.org/SilicaAndPina/trophax/downloads/) (for unlocking trophies while in-game)
