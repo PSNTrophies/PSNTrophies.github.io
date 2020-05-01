@@ -8,9 +8,11 @@ title: "Setting Up Your PC for Vita"
 
 **PlayStation Vita** is much, much easier to work with in comparison to **PlayStation 3**. You can download numerous Vita trophy folders from [PSN Trophy Database](http://psntrophies.xyz/trophies/vita), and just drag-and-drop them into your account! There's no resigning necessary, nor will you have to rebuild database on your console! 
 
-There are three small caveats though: **psvtrophyisgood (VTIG)** can be a pain to work with, as the timestamping is not as efficient as **PS3TrophyIsGood**, but there have been some advancements (thanks to _Silica_) that make it easier to worth with (more on that later). The other issue is that you're going to have to use **Account Switcher** (as seen on the next page) in order to switch accounts, as Vita **does not** natively support multiple accounts. 
+There are three small caveats though: 
 
-The last issue is that, unlike **PlayStation 3**, you can only sync up to **99** trophy folders at one time. Any after that will not show up in the trophy app. **PlayStation 3** is able to do hundreds (thought it's recommended to do at most 100-150, but better to go with 50 at a time (since you'll be experiecning multiple D55 errors in a row)). Some trivia: **PlayStation 4** can only handly up to 300 games on one user at a time!
+1. **psvtrophyisgood (VTIG)** can be a pain to work with, as the timestamping is not as efficient as **PS3TrophyIsGood**, but there have been some advancements (thanks to _Silica_) that make it easier to worth with (more on that later). 
+1. You're going to have to use **Account Switcher** (as seen on the next page) in order to switch accounts, as Vita **does not** natively support multiple accounts. 
+1. Unlike **PlayStation 3**, you can only sync up to **99** trophy folders at one time. Any after that will not show up in the trophy app. **PlayStation 3** is able to do hundreds (thought it's recommended to do at most 100-150, but better to go with 50 at a time (since you'll be experiecning multiple D55 errors in a row)). Some trivia: **PlayStation 4** can only handly up to 300 games on one user at a time!
 
 If you want to create your own trophy folders, then make sure to read this guide thoroughly, then proceed to the next page! We will go over how to go about unlocking trophies from the console itself, and then how to unlock trophies using **psvtrophyisgood**. Note, that you cannot have a PSN account linked to the folder, or it will not be usable!
 {: .notice--info}
