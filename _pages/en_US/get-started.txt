@@ -35,7 +35,7 @@ Before you start, be sure to check the firmware listed in the system settings on
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">PlayStation 3 (CFW)</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.60)">Updating Firmware (3.60)</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="setting-up-your-pc-for-cfw-ps3">Setting Up Your PC for CFW PS3</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">PlayStation 3 (HEN)</td>
