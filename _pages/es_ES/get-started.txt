@@ -6,15 +6,14 @@ title: "Comencemos"
 
 ### Lectura requerida
 
-Las diferentes versiones de modelos requerirán diferentes pasos para completar la meta final de instalar Custom Firmware. En esta página podrás encontrar dónde comenzar con tu consola.
+Las diferentes versiones de consolas requerirán diferentes pasos para lograr el objetivo final de la modificación de trofeos. Esta página lo ayudará a encontrar dónde comenzar para su consola.
 
 ¡Antes de empezar, se recomienda que los usuarios de Windows habiliten la opción para mostrar extensiones de archivo mediante [Extensiones de archivos (Windows)](file-extensions-(windows))!
 {: .notice--info}
 
-Selecciona la página apropiada para tu versión en la tabla de abajo. Ten en cuenta que las columnas "desde" y "hasta" son inclusivas. This means that, for example, the "from 1.03 to 3.57" row includes 1.03, 3.57, and all versions in-between.
+Seleccione la página adecuada para su consola de la tabla a continuación. Tenga en cuenta que **Custom Firmware (CFW)** PlayStation 3 se aplica a las PS3 que han sido liberadas en 3.55 **Original Firmware (OFW)**, y desde entonces se ha actualizado a CFW posteriores. **Homebrew ENabler (HEN)** se aplica a las PS3 que no se pueden degradar, pero que pueden modificarse parcialmente debido a **PS3HEN** Los pasos para modificar la PS3 son diferentes, pero el método de modificación de trofeos es el mismo. HEN puede ser más seguro, especialmente en el caso de hacer los pasos del trofeo sin conexión y eliminar el historial a través de **WebMAN**, ¡pero nos centraremos en eso más adelante en la guía!
 
-La versión del sistema de tu consola se encuentra debajo del menú de Información del sistema en la categoría Sistema dentro de la aplicación de configuración.
-
+Antes de comenzar, asegúrese de verificar el firmware que figura en la configuración del sistema en su **PlayStation 3** o **PlayStation Vita**. Se puede usar cualquier firmware para Vita, pero solo 3.60 / 3.65 tendrá la mayor compatibilidad, así que asegúrese de usar la [Guía de Vita Jailbreak](https://vita.hacks.guide/) para que su dispositivo esté listo , ya que no nos centraremos en configurar sus consolas.
 ![]({{ "/images/screenshots/system-version.png" | absolute_url }})
 {: .notice--info}
 
@@ -28,31 +27,22 @@ La versión del sistema de tu consola se encuentra debajo del menú de Informaci
   </colgroup>
   <thead>
     <tr>
-      <th style="text-align: center; font-weight: bold;">Desde</th>
-      <th style="text-align: center; font-weight: bold;">Hasta</th>
+      <th style="text-align: center; font-weight: bold;">Consola</th>
       <th style="text-align: center; font-weight: bold;"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center; font-weight: bold;">1.03</td>
-      <td style="text-align: center; font-weight: bold;">3.57</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.60)">Actualizar firmware (3.60)</a></td>
+      <td style="text-align: center; font-weight: bold;">PlayStation 3 (CFW)</td>
+      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(3.60)">Updating Firmware (3.60)</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">3.60</td>
-      <td style="text-align: center; font-weight: bold;">3.60</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-henkaku">Instalar HENkaku</a></td>
+      <td style="text-align: center; font-weight: bold;">PlayStation 3 (HEN)</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-henkaku">Installing HENkaku</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">3.61</td>
-      <td style="text-align: center; font-weight: bold;">3.63</td>
-      <td style="text-align: center; font-weight: bold;"><a href="updating-firmware-(ps-vita-3.65)">Updating Firmware (PS Vita)</a><br>or<br><a href="updating-firmware-(ps-tv-3.65)">Updating Firmware (PS TV)</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;">3.65</td>
-      <td style="text-align: center; font-weight: bold;">3.72</td>
-      <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore">Instalar h-encore</a></td>
+      <td style="text-align: center; font-weight: bold;">PlayStation Vita/TV (3.60+ FW)</td>
+      <td style="text-align: center; font-weight: bold;"><a href="installing-h-encore">Installing h-encore</a></td>
     </tr>
   </tbody>
 </table>
