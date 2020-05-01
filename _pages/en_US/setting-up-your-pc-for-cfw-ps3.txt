@@ -38,6 +38,7 @@ If you are using a **PlayStation Vita**, or your **PlayStation 3** is running **
 1. Click the profile link at the top of the tool
   + Use the resultant File Explorer to browse for your **Param.SFO**
   + Name the profile
+  
 ___
 
 ### Continue to [Installing HENkaku](installing-henkaku)
